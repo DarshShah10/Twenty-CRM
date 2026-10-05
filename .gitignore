@@ -55,3 +55,9 @@ TRANSLATION_QA_REPORT.md
 .playwright-mcp/
 .playwright-cli/
 output/playwright/
+
+# Workstation-specific helpers; private runtime lives outside this repository
+/LOCAL_DEVELOPMENT.md
+/local-dev.ps1
+/local-build.sh
+/local-frontend-build.sh

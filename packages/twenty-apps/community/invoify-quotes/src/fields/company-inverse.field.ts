@@ -1,0 +1,3 @@
+import { defineField, FieldType, RelationType, OnDeleteAction, STANDARD_OBJECT_UNIVERSAL_IDENTIFIERS } from 'twenty-sdk/define';
+import { QUOTE_OBJECT_UNIVERSAL_IDENTIFIER, LINE_OBJECT_UNIVERSAL_IDENTIFIER } from 'src/constants/quote-fields';
+export default defineField({ universalIdentifier: 'b0321000-90d4-416c-857d-99fbc9871004', objectUniversalIdentifier: STANDARD_OBJECT_UNIVERSAL_IDENTIFIERS.company.universalIdentifier, type: FieldType.RELATION, name: 'invoifyQuotes', label: 'Quotes', relationTargetObjectMetadataUniversalIdentifier: QUOTE_OBJECT_UNIVERSAL_IDENTIFIER, relationTargetFieldMetadataUniversalIdentifier: 'b0321000-90d4-416c-857d-99fbc9871003', universalSettings: { relationType: RelationType.ONE_TO_MANY } });

@@ -1,3 +1,5 @@
+> This checkout includes the [Invoify Quotes community extension](QUOTING_EXTENSION.md). Its editor/PDF server is maintained in [DarshShah10/Invoify-](https://github.com/DarshShah10/Invoify-). Follow the extension guide to add quoting to an existing Twenty 2.5.1 instance without a core patch.
+
 <p align="center">
   <a href="https://www.twenty.com">
     <img src="./packages/twenty-website-new/public/images/core/logo.svg" width="100px" alt="Twenty logo" />

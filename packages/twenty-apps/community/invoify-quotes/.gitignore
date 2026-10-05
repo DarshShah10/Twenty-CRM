@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+.env
+.env.*
+!.env.example
+.twenty-local/
+src/generated/
+workspace-report.json
+.twenty/
+.yarn/install-state.gz
+.cache/
