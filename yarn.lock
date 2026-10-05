@@ -79,14 +79,14 @@ __metadata:
   linkType: hard
 
 "@ai-sdk/mistral@npm:^3.0.31":
-  version: 3.0.31
-  resolution: "@ai-sdk/mistral@npm:3.0.31"
+  version: 3.0.70
+  resolution: "@ai-sdk/mistral@npm:3.0.70"
   dependencies:
-    "@ai-sdk/provider": "npm:3.0.9"
-    "@ai-sdk/provider-utils": "npm:4.0.24"
+    "@ai-sdk/provider": "npm:3.0.18"
+    "@ai-sdk/provider-utils": "npm:4.0.57"
   peerDependencies:
     zod: ^3.25.76 || ^4.1.8
-  checksum: 10c0/e46a024c12f96b05c69f4990f62338651bc06e0a22cb8ff42d73eb478d46f925ed3baeff6418201c3f79671c0e926b5f304bca787c8028e498505338afef3319
+  checksum: 10c0/bd87523687dc59706b66bbc47a38ebf5c7392e9a2b52e32c3a51c01dc716f4275e2d493cf43d83b54e91e2ba4be6e7d9d8dea678c8ecb8f9ab2615407b748c6d
   languageName: node
   linkType: hard
 
@@ -137,6 +137,29 @@ __metadata:
   peerDependencies:
     zod: ^3.25.76 || ^4.1.8
   checksum: 10c0/43473a865313118bcafbe8d4b5ab37e5c10036da8ba975af9808f2d1b8dfac5747a5ec8da06788fc135eeb045ef51f3e068293f4cefe53ce8eb98db514e68915
+  languageName: node
+  linkType: hard
+
+"@ai-sdk/provider-utils@npm:4.0.57":
+  version: 4.0.57
+  resolution: "@ai-sdk/provider-utils@npm:4.0.57"
+  dependencies:
+    "@ai-sdk/provider": "npm:3.0.18"
+    "@standard-schema/spec": "npm:^1.1.0"
+    eventsource-parser: "npm:^3.0.8"
+    undici: "npm:^6.28.0"
+  peerDependencies:
+    zod: ^3.25.76 || ^4.1.8
+  checksum: 10c0/f7e6e31b12dfc3c62f2d95e2226cb8a0592b57c44198f612b2c37e25ae203305f949706dc8e305cc38fbcb8470a18c414bd2dc96bd1f2680a236f00c8c1905a3
+  languageName: node
+  linkType: hard
+
+"@ai-sdk/provider@npm:3.0.18":
+  version: 3.0.18
+  resolution: "@ai-sdk/provider@npm:3.0.18"
+  dependencies:
+    json-schema: "npm:^0.4.0"
+  checksum: 10c0/ec3a4cc01f3724a95c0b20c8cff936ceb27750717158a9df9a6dacd601ce0733c989b5f8ce17d12ea188dc25efeea41f23719c7a01aa41d4911618a6e3848e9e
   languageName: node
   linkType: hard
 
@@ -54976,6 +54999,13 @@ __metadata:
   dependencies:
     "@fastify/busboy": "npm:^2.0.0"
   checksum: 10c0/e4e4d631ca54ee0ad82d2e90e7798fa00a106e27e6c880687e445cc2f13b4bc87c5eba2a88c266c3eecffb18f26e227b778412da74a23acc374fca7caccec49b
+  languageName: node
+  linkType: hard
+
+"undici@npm:^6.28.0":
+  version: 6.29.0
+  resolution: "undici@npm:6.29.0"
+  checksum: 10c0/3fb2117985be977ba8b6bd6a242fec915e1b1d0f9681f5adb3f508fb1717352452d65bcfd3bed09e7c776cfda403a4e8edb24a318492f8b2d793439af2b8699b
   languageName: node
   linkType: hard
 
